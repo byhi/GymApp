@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "8fc5de25-07b2-456e-848d-4040ba9f39dd",
+		"name": "Gym - App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/info",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"info"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
